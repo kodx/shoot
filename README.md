@@ -9,6 +9,7 @@ Dependencies:
 * scrot
 * xclip
 * libnotify-bin
+
 Derived from http://sirupsen.com/static/misc/shoot by Sirupsen @ http://sirupsen.dk
 License: GNU GPL v3
 
