@@ -26,7 +26,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see [http://www.gnu.org/licenses/].
 
-CMDLIST="scrot xclip curl notify-send"
+CMDLIST="scrot xclip curl"
 for e in $CMDLIST; do
     if [ -z "$(which $e)" ]; then
         echo "$e not installed, quit."
@@ -44,7 +44,7 @@ if scrot -s $SHOTPATH; then
     LINK=$(uploadImage $SHOTPATH) 
     echo $LINK | xclip -selection c
     rm $SHOTPATH
-    notify-send "Screenshot on $LINK"
+    notify-send -i go-down "Screenshot on $LINK"
 fi
 
 # shoot ends here
