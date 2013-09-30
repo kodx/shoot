@@ -41,7 +41,6 @@ function uploadImage {
 }
 
 if scrot -s $SHOTPATH; then
-    echo "scrot is ok"
     LINK=$(uploadImage $SHOTPATH) 
     echo $LINK | xclip -selection c
     rm $SHOTPATH
