@@ -3,16 +3,18 @@ shoot
 
 **Script for taking sreenshot of selected area and upload it to imgur.com**
 
-Implemented in: bash
+**Implemented in:** bash
 
-Dependencies: 
+**Dependencies:**
 * curl
 * scrot
 * xclip
 * libnotify-bin
 
+**License:** GNU GPL v3
+
 Derived from http://sirupsen.com/static/misc/shoot by Sirupsen @ http://sirupsen.dk
-License: GNU GPL v3
+
 
 Installation:
 $ 
