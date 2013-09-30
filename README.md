@@ -17,4 +17,4 @@ Derived from http://sirupsen.com/static/misc/shoot by Sirupsen @ http://sirupsen
 
 
 Installation:
-$ 
+> curl https://raw.github.com/kodx/shoot/master/shoot > ~/bin/shoot && chmod 755 ~/bin/shoot
